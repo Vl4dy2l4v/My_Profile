@@ -1,0 +1,169 @@
+/* body styles */
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Header Styles */
+
+.header {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Intro Section Styles */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/kebab.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__title {
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.intro__title:after {
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 30px auto;
+}
+
+.intro__suptitle {
+    margin-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 36px;
+}
+
+/* Button Styles */
+
+.btn {
+    display: inline-block;
+    padding: 8px 30px;
+    margin-top: 20px;
+    border: 3px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Main Section Styles */
+
+main {
+    padding: 20px;
+    
+}
+ 
+/* Main Section Styles */
+.articles-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    margin: 20px;
+    width: calc(50% - 20px); 
+    margin-bottom: 40px;
+    background-color: #99CCFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    color: black ;
+
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
